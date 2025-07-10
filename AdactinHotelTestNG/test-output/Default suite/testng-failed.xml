@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.execution.TC04_AdactinBookHotel">
+        <methods>
+          <include name="Validate_Bookhotel"/>
+        </methods>
+      </class> <!-- org.execution.TC04_AdactinBookHotel -->
+      <class name="org.execution.TC07_AdactinLoginAgain">
+        <methods>
+          <include name="Validate_LoginAgain"/>
+        </methods>
+      </class> <!-- org.execution.TC07_AdactinLoginAgain -->
+      <class name="org.execution.TC05_AdactinBookingConfirmation">
+        <methods>
+          <include name="Validate_BookingConfirmation"/>
+        </methods>
+      </class> <!-- org.execution.TC05_AdactinBookingConfirmation -->
+      <class name="org.execution.TC03_AdactinSelectHotel">
+        <methods>
+          <include name="SelectHotel"/>
+        </methods>
+      </class> <!-- org.execution.TC03_AdactinSelectHotel -->
+      <class name="org.execution.TC02_AdactinSearchHotelPage">
+        <methods>
+          <include name="Validate_SearchHotelPage"/>
+        </methods>
+      </class> <!-- org.execution.TC02_AdactinSearchHotelPage -->
+      <class name="org.execution.TC06_AdactinBookedItinerary">
+        <methods>
+          <include name="Validate_BookedItinerary"/>
+        </methods>
+      </class> <!-- org.execution.TC06_AdactinBookedItinerary -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-22T12:54:19Z" name="Suite" finished-at="2024-08-22T12:55:18Z" duration-ms="59099">
+    <groups>
+    </groups>
+    <test started-at="2024-08-22T12:54:19Z" name="Test" finished-at="2024-08-22T12:55:18Z" duration-ms="59099">
+      <class name="org.execution.TC07_AdactinLoginAgain">
+        <test-method signature="AgainLogin()[pri:2, instance:org.execution.TC07_AdactinLoginAgain@2e48362c]" started-at="2024-08-22T12:55:14Z" name="AgainLogin" finished-at="2024-08-22T12:55:18Z" duration-ms="3263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgainLogin -->
+      </class> <!-- org.execution.TC07_AdactinLoginAgain -->
+      <class name="org.execution.TC06_AdactinBookedItinerary">
+        <test-method signature="Validate_BookedItinerary()[pri:1, instance:org.execution.TC06_AdactinBookedItinerary@46b61c56]" started-at="2024-08-22T12:54:29Z" name="Validate_BookedItinerary" finished-at="2024-08-22T12:54:35Z" duration-ms="6370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_BookedItinerary -->
+        <test-method signature="CancelBookedRooms()[pri:2, instance:org.execution.TC06_AdactinBookedItinerary@46b61c56]" started-at="2024-08-22T12:55:05Z" name="CancelBookedRooms" finished-at="2024-08-22T12:55:14Z" duration-ms="9277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelBookedRooms -->
+      </class> <!-- org.execution.TC06_AdactinBookedItinerary -->
+      <class name="org.execution.TC05_AdactinBookingConfirmation">
+        <test-method signature="Validate_BookingConfirmation()[pri:1, instance:org.execution.TC05_AdactinBookingConfirmation@481ba2cf]" started-at="2024-08-22T12:54:29Z" name="Validate_BookingConfirmation" finished-at="2024-08-22T12:54:29Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_BookingConfirmation -->
+        <test-method signature="BookingConfirmation()[pri:2, instance:org.execution.TC05_AdactinBookingConfirmation@481ba2cf]" started-at="2024-08-22T12:54:58Z" name="BookingConfirmation" finished-at="2024-08-22T12:55:05Z" duration-ms="6988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookingConfirmation -->
+      </class> <!-- org.execution.TC05_AdactinBookingConfirmation -->
+      <class name="org.execution.TC04_AdactinBookHotel">
+        <test-method signature="Validate_Bookhotel()[pri:1, instance:org.execution.TC04_AdactinBookHotel@36060e]" started-at="2024-08-22T12:54:29Z" name="Validate_Bookhotel" finished-at="2024-08-22T12:54:29Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Bookhotel -->
+        <test-method signature="BookHotelDetails()[pri:2, instance:org.execution.TC04_AdactinBookHotel@36060e]" started-at="2024-08-22T12:54:47Z" name="BookHotelDetails" finished-at="2024-08-22T12:54:58Z" duration-ms="11241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookHotelDetails -->
+      </class> <!-- org.execution.TC04_AdactinBookHotel -->
+      <class name="org.execution.TC03_AdactinSelectHotel">
+        <test-method signature="SelectHotel()[pri:1, instance:org.execution.TC03_AdactinSelectHotel@5b367418]" started-at="2024-08-22T12:54:29Z" name="SelectHotel" finished-at="2024-08-22T12:54:29Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectHotel -->
+        <test-method signature="SelectAndContinue()[pri:2, instance:org.execution.TC03_AdactinSelectHotel@5b367418]" started-at="2024-08-22T12:54:40Z" name="SelectAndContinue" finished-at="2024-08-22T12:54:47Z" duration-ms="6709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectAndContinue -->
+      </class> <!-- org.execution.TC03_AdactinSelectHotel -->
+      <class name="org.execution.TC02_AdactinSearchHotelPage">
+        <test-method signature="Validate_SearchHotelPage()[pri:1, instance:org.execution.TC02_AdactinSearchHotelPage@1583741e]" started-at="2024-08-22T12:54:28Z" name="Validate_SearchHotelPage" finished-at="2024-08-22T12:54:29Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_SearchHotelPage -->
+        <test-method signature="SelectHotel_Details()[pri:2, instance:org.execution.TC02_AdactinSearchHotelPage@1583741e]" started-at="2024-08-22T12:54:36Z" name="SelectHotel_Details" finished-at="2024-08-22T12:54:40Z" duration-ms="4607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectHotel_Details -->
+      </class> <!-- org.execution.TC02_AdactinSearchHotelPage -->
+      <class name="org.execution.TC01_AdactinLoginPage">
+        <test-method signature="Browserlaunch()[pri:1, instance:org.execution.TC01_AdactinLoginPage@3697186]" started-at="2024-08-22T12:54:19Z" name="Browserlaunch" finished-at="2024-08-22T12:54:28Z" duration-ms="9895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlaunch -->
+        <test-method signature="ValidateLoginPage()[pri:2, instance:org.execution.TC01_AdactinLoginPage@3697186]" started-at="2024-08-22T12:54:35Z" name="ValidateLoginPage" finished-at="2024-08-22T12:54:36Z" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginPage -->
+      </class> <!-- org.execution.TC01_AdactinLoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

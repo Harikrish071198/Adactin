@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.execution.TC04_SmartWatchPage">
+        <methods>
+          <include name="ValidateSmartWatchPage"/>
+          <include name="AddToCart"/>
+        </methods>
+      </class> <!-- org.execution.TC04_SmartWatchPage -->
+      <class name="org.execution.TC07_OrderConfirmationPage">
+        <methods>
+          <include name="ValidateConfirmationPage"/>
+          <include name="LogOutFromAccount"/>
+        </methods>
+      </class> <!-- org.execution.TC07_OrderConfirmationPage -->
+      <class name="org.execution.TC02_MyAccountPage">
+        <methods>
+          <include name="ToEnterShop"/>
+        </methods>
+      </class> <!-- org.execution.TC02_MyAccountPage -->
+      <class name="org.execution.TC05_AgainShopPage">
+        <methods>
+          <include name="ValidateAgainShopPage"/>
+        </methods>
+      </class> <!-- org.execution.TC05_AgainShopPage -->
+      <class name="org.execution.TC06_CheckoutPage">
+        <methods>
+          <include name="EnterDetails"/>
+          <include name="ValidateCheckoutPage"/>
+        </methods>
+      </class> <!-- org.execution.TC06_CheckoutPage -->
+      <class name="org.execution.TC03_ShopPage">
+        <methods>
+          <include name="ValidateShopPage"/>
+          <include name="BuyWatch"/>
+        </methods>
+      </class> <!-- org.execution.TC03_ShopPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
