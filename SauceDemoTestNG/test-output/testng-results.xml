@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-22T10:41:51Z" name="Suite" finished-at="2024-08-22T10:42:01Z" duration-ms="9328">
+    <groups>
+    </groups>
+    <test started-at="2024-08-22T10:41:51Z" name="Test" finished-at="2024-08-22T10:42:01Z" duration-ms="9328">
+      <class name="org.execution.TC01_SauceLoginPage">
+        <test-method signature="Browser()[pri:1, instance:org.execution.TC01_SauceLoginPage@36b4091c]" started-at="2024-08-22T10:41:51Z" name="Browser" finished-at="2024-08-22T10:41:57Z" duration-ms="5455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method signature="Validate_Credentials()[pri:2, instance:org.execution.TC01_SauceLoginPage@36b4091c]" started-at="2024-08-22T10:41:57Z" name="Validate_Credentials" finished-at="2024-08-22T10:41:57Z" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Credentials -->
+        <test-method signature="LoginCredentials()[pri:3, instance:org.execution.TC01_SauceLoginPage@36b4091c]" started-at="2024-08-22T10:41:57Z" name="LoginCredentials" finished-at="2024-08-22T10:41:59Z" duration-ms="1517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCredentials -->
+      </class> <!-- org.execution.TC01_SauceLoginPage -->
+      <class name="org.execution.TC02_ProductPage">
+        <test-method signature="ValidateProductPage()[pri:4, instance:org.execution.TC02_ProductPage@4671115f]" started-at="2024-08-22T10:41:59Z" name="ValidateProductPage" finished-at="2024-08-22T10:41:59Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateProductPage -->
+        <test-method signature="ProductSelection()[pri:5, instance:org.execution.TC02_ProductPage@4671115f]" started-at="2024-08-22T10:41:59Z" name="ProductSelection" finished-at="2024-08-22T10:41:59Z" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSelection -->
+      </class> <!-- org.execution.TC02_ProductPage -->
+      <class name="org.execution.TC04_InformationPage">
+        <test-method signature="ValidateInformationPage()[pri:8, instance:org.execution.TC04_InformationPage@3697186]" started-at="2024-08-22T10:42:00Z" name="ValidateInformationPage" finished-at="2024-08-22T10:42:00Z" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateInformationPage -->
+        <test-method signature="YourInformation()[pri:9, instance:org.execution.TC04_InformationPage@3697186]" started-at="2024-08-22T10:42:00Z" name="YourInformation" finished-at="2024-08-22T10:42:00Z" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YourInformation -->
+      </class> <!-- org.execution.TC04_InformationPage -->
+      <class name="org.execution.TC05_OverviewPage">
+        <test-method signature="OrderConfirmation()[pri:10, instance:org.execution.TC05_OverviewPage@1583741e]" started-at="2024-08-22T10:42:00Z" name="OrderConfirmation" finished-at="2024-08-22T10:42:01Z" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderConfirmation -->
+      </class> <!-- org.execution.TC05_OverviewPage -->
+      <class name="org.execution.TC06_FinishPage">
+        <test-method signature="ValidateFinishPage()[pri:11, instance:org.execution.TC06_FinishPage@5b367418]" started-at="2024-08-22T10:42:01Z" name="ValidateFinishPage" finished-at="2024-08-22T10:42:01Z" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFinishPage -->
+      </class> <!-- org.execution.TC06_FinishPage -->
+      <class name="org.execution.TC03_CheckoutPage">
+        <test-method signature="Validate_Check_Out()[pri:6, instance:org.execution.TC03_CheckoutPage@36cda2c2]" started-at="2024-08-22T10:41:59Z" name="Validate_Check_Out" finished-at="2024-08-22T10:41:59Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Check_Out -->
+        <test-method signature="Checkout()[pri:7, instance:org.execution.TC03_CheckoutPage@36cda2c2]" started-at="2024-08-22T10:41:59Z" name="Checkout" finished-at="2024-08-22T10:42:00Z" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+      </class> <!-- org.execution.TC03_CheckoutPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

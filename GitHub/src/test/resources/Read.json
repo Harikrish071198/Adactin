@@ -1,0 +1,14 @@
+{
+	"name": "Hari Krish",
+	"age": 26,
+	"status": true,
+	"address": {
+		"state": "Tamil Nadu",
+		"country": "India"
+	},
+	"course": [
+		"Java",
+		"selenium"
+
+	]
+}

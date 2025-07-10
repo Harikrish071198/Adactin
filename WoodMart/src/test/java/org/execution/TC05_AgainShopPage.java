@@ -1,0 +1,51 @@
+package org.execution;
+
+import org.base.BaseClass;
+import org.junit.Before;
+import org.junit.Test;
+import org.manager.PageManager;
+import org.openqa.selenium.WebElement;
+
+public class TC05_AgainShopPage extends BaseClass {
+
+	public static BaseClass base = new BaseClass();
+
+	public static PageManager pageManager = new PageManager();
+
+	@Before
+	public void ValidateAgainShopPage() {
+
+		if (pageManager.getAgainShopPage().getValidateAgainShopPage().isDisplayed()) {
+			System.out.println("User---Now---In---Again---Login---Page");
+		} else {
+			System.out.println("User---Not----In----Again--Login---Page");
+		}
+
+	}
+
+	@Test
+	public void AddProducts() {
+		try {
+
+			base.sleep(3000);
+			WebElement addToy = pageManager.getAgainShopPage().getAddToy();
+			base.clickByJS(addToy);
+			base.sleep(3000);
+
+			WebElement closeCartPage = pageManager.getAgainShopPage().getCloseCartPage();
+			base.clickByRobot();
+			base.sleep(2000);
+
+			WebElement selectDecorationToCart = pageManager.getAgainShopPage().getSelectDecorationToCart();
+			base.clickByJS(selectDecorationToCart);
+			base.sleep(2000);
+			base.sleep(2000);
+			WebElement clickCheckPage = pageManager.getAgainShopPage().getClickCheckPage();
+			base.clickByJS(clickCheckPage);
+
+		} catch (Exception e) {
+
+		}
+
+	}
+}

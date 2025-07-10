@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="org.execution.TC01_AdactinLoginPage" />
+			<class name="org.execution.TC02_AdactinSearchHotelPage" />
+			<class name="org.execution.TC03_AdactinSelectHotel" />
+			<class name="org.execution.TC04_AdactinBookHotel" />
+			<class name="org.execution.TC05_AdactinBookingConfirmation" />
+			<class name="org.execution.TC06_AdactinBookedItinerary" />
+			<class name="org.execution.TC07_AdactinLoginAgain" />
+			
+			
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
